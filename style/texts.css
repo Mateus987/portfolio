@@ -1,0 +1,43 @@
+#main_text{
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    top: 50%;
+    font-size: 4.1rem;
+    font-family: Courier;
+
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid; /* cursor de digitação */
+    white-space: nowrap; /* Mantem o cursor na mesma linha */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 4s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* efeito de digitação */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* Efeito do cursor digitando */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+
+.linguagens h1{
+    font-size: 3em;
+    color: aliceblue;
+}
+
+.imagens{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
