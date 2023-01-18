@@ -1,0 +1,190 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.name-animation {
+    position: absolute;
+    font-size: 3rem;
+    color:white;
+    width: 90%;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+  }
+
+#about-title{
+  position: relative;
+  font-size: 340%;
+  bottom: 50px;
+}
+
+.about-left p{
+  font-size: 1.5rem;
+}
+
+#paragraf-about{
+  font-size: 1.5rem;
+}
+
+.experience h1{
+  position: relative;
+  width: 30%;
+  left: 3%;
+  font-size: 280%;
+}
+
+.experience img{
+  position: relative;
+  left: 10%;
+}
+
+.line{
+  position: relative;
+  left: 3.5%;
+  bottom: 30px;
+  width: 30%;
+  border: solid 3px greenyellow;
+}
+
+#paragraf-about1{
+  position: relative;
+  font-size: 1.5rem;
+  width: 93%;
+  left: 5%;
+  top: 40px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.knowledge h1{
+  position: relative;
+  left:3%;
+  color:  white;
+  font-size: 280%;
+  width: 30%;
+}
+.knowledge h2{
+  position: relative;
+  left: 22%;
+  color:  white;
+  font-size: 160%;
+  width: 30%;
+}
+
+#basic{
+  position: relative;
+  font-size: 80%;
+  left:40%;
+  color: white;
+}
+
+#intermediate{
+  position: relative;
+  font-size: 80%;
+  left:34%;
+  color: white;
+}
+
+#advanced{
+  position: relative;
+  font-size: 80%;
+  left:36%;
+  color: white;
+}
+
+.knowledge img{
+  position: relative;
+  left: 40%;
+  height: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-img{
+  position: relative;
+  padding-right: 20px;
+  top: 15%;
+  
+}
+
+.contact h1{
+  position: relative;
+  left: 3%;
+  font-size: 300%;
+  width: 45%;
+  padding: 0%;
+  color:  white;
+}
+
+.contact-img img{
+  height: 100px;
+  filter: contrast(200%);
+  filter: invert(100%) sepia(95%) saturate(0%) hue-rotate(130deg) brightness(106%) contrast(104%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE  */
+
+@media only screen and (max-width: 600px) {
+
+  .name-animation {
+   
+    font-size: 90%;
+  }
+
+  #about-title{
+    position: relative;
+    font-size: 280%;
+    bottom: 50px;
+  }
+  
+  .about-left p{
+    font-size: 110%;
+  }
+
+  #paragraf-about{
+    visibility: hidden;
+  }
+
+  .about-right img{
+    width: 100%;
+    height: 70%;
+  }
+
+}
