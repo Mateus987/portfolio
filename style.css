@@ -19,7 +19,7 @@ h1 {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     width: 100%;
-    height: 650px;
+    height: 680px;
 }
 
 .first-image h1{
@@ -62,36 +62,6 @@ h1 {
     top: 53px;
 }
 
-.neon-button {
-    background-color: #fff;
-    color: #111;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    outline: none;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .neon-button::before {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background-color: #fff;
-    border-radius: 5px;
-    opacity: 0;
-    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 70px #fff, 0 0 90px #fff;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .neon-button:hover::before {
-    opacity: 1;
-  }
 
 .sentence{
     background-color: rgb(36, 36, 36);
@@ -139,31 +109,41 @@ h1 {
 @media only screen and (max-width: 600px) {
 
     .first-image{
-       
-        height: 640px;
+        
+        height: 599px;
     }
+
+    .first-image h1{
+        width: 75%;
+       
+    }
+
+    .first-image h2{
+        width: 70%;
+        font-size: 24px;
+        
+    }
+
 
     .about-me h1{
         position: relative;
         left: 12px;
-        width: 50%;
+        width: 75%;
     }
 
     #user-profile{
        position: relative;
-       width: 150px;
-       height: 300px;
-    
+       width: 130px;
+       height: 270px;
+       top: 50px;
        margin: 0;
     }
 
     #user-description{
         position: relative;
-    
-        
-        
-        color: whitesmoke;
-        width: 48vh;
+        font-size: 10px;
+        left: 3px;
+        width: 35vh;
         height: 640px;
         margin: 0;
     }
@@ -183,7 +163,7 @@ h1 {
     }
 
     .contact-me{
-        height: 240px;
+        height: 80px;
     }
 
 
