@@ -54,12 +54,11 @@ h1 {
 
 
 #user-description{
-    position: static;
+    position: relative;
     font-size: 22px;
     color: whitesmoke;
     width: 800px;
-    left: 25px;
-    top: 53px;
+    left: 40px;
 }
 
 
@@ -110,7 +109,7 @@ h1 {
 
     .first-image{
         
-        height: 599px;
+        height: 710px;
     }
 
     .first-image h1{
@@ -124,6 +123,9 @@ h1 {
         
     }
 
+    .about-me{
+        height: 420px;
+    }
 
     .about-me h1{
         position: relative;
@@ -135,7 +137,7 @@ h1 {
        position: relative;
        width: 130px;
        height: 270px;
-       top: 50px;
+       
        margin: 0;
     }
 
@@ -144,7 +146,7 @@ h1 {
         font-size: 10px;
         left: 3px;
         width: 35vh;
-        height: 640px;
+        height: 290px;
         margin: 0;
     }
 
