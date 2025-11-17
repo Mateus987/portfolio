@@ -20,4 +20,4 @@ document.addEventListener('DOMContentLoaded', function() {
     phrase.innerText = text[i];
 });
 
-console.log("Aplicativo Mateus - TESTE")
+console.error("Aplicativo Mateus - TESTE")
