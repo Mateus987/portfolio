@@ -19,3 +19,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var i = Math.floor(text.length * Math.random());
     phrase.innerText = text[i];
 });
+
+console.log("Aplicativo Mateus - TESTE")
