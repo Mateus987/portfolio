@@ -20,4 +20,4 @@ document.addEventListener('DOMContentLoaded', function() {
     phrase.innerText = text[i];
 });
 
-console.log("Sem reputaÃ§Ã£o definida",r="Empresa sem reputaÃ§Ã£o definida)
+console.log("Sem reputaÃ§Ã£o definidaEmpresa sem reputaÃ§Ã£o definida");
