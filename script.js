@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 console.log("testando script de disparo de eventos na página de produtos");
 
-const buttonbuy = document.queryselector("#button-buy");
+const buttonbuy = document.querySelector("#button-buy");
 buttonbuy.addEventListener('mouseover', function(){
     console.log("Vai comprar?");
 } )
