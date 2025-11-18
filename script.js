@@ -20,4 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     phrase.innerText = text[i];
 });
 
-console.log("Sem reputaÃ§Ã£o definidaEmpresa sem reputaÃ§Ã£o definida");
+const buttonbuy = document.queryselector("#button-buy");
+buttonbuy.addEventListener('mouseover', function(){
+    console.log("Vai comprar?");
+} )
