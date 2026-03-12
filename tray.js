@@ -14,6 +14,7 @@
 
         console.log("Recarregando script como module...");
 
+        
         if (window.location.pathname === "/checkout/cart") {
 
             let chApp = document.getElementById("ch-app");
