@@ -35,7 +35,5 @@
 
         return; // impede execução duplicada
     }
-
-    // Seu código original
     
 })();
