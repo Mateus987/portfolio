@@ -1,57 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <script src="script.js"></script>
-    <title>Portifólio - Mateus dos Santos</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mateus dos Santos | Software Engineer</title>
+
+  <link rel="stylesheet" href="style.css"/>
 </head>
+
 <body>
-    <div class="first-image">
-      <h1>Mateus dos Santos</h1>
-      <h2>| Desenvolvedor de Software</h2>
-    
-    </div>
-    <br><br>
-    <div class="about-me">
-        <h1>Sobre mim</h1>
-        <br>
-        <img id="user-profile" src="img/Matias.jpeg"></img>
-        <p id="user-description">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Meu nome é Mateus dos Santos, tenho 21 anos e atualmente estou dedicando meus estudos ao bacharelado
-           em Ciência da Computação no Centro Universitário Eurípides de Marília (UNIVEM). Estou entusiasmado em explorar novas oportunidades e experiências que possam
-            enriquecer minha trajetória profissional. Minha paixão pela programação e tecnologia em geral 
-            tem me impulsionado nessa jornada.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desde o início de 2020, tenho me dedicado ao estudo da 
-            programação, começando com Python e, posteriormente, aprofundando meus conhecimentos em assuntos
-            relacionados à web. O fascínio pelo design sempre me atraiu, e isso me motivou a buscar conhecimentos 
-            nessa área. A Informática foi uma das minhas duas opções de cursos universitários que eu desejava
-            fazer. Agora, estou feliz por estar trilhando esse caminho e continuo empolgado em aprender e crescer no
-            campo da tecnologia.</p>
-        <a href="CV Mateus dos Santos.pdf" download>
-            <button class="neon-button" type="button">Baixar meu currículo</button>
-          </a>
-    </div>
-<div class="sentence"><p id="phrase"></p></div>
-</body>
-<footer class="contact-me">
+
+  <!-- HERO -->
+  <header class="hero">
+    <h1>Mateus dos Santos</h1>
+    <h2>Software Engineer | Backend & System Integration</h2>
+    <p>APIs • Python • Laravel • Docker • JavaScript</p>
+
+    <a href="CV Mateus dos Santos.pdf" download class="btn">
+      Download CV
+    </a>
+  </header>
+
+  <!-- SOBRE -->
+  <section class="about">
     <div class="container">
-        <div class="item">
-            <a href="https://www.linkedin.com/in/mateus-dos-santos-de-andrade/" target="_blank"><img src="img/linkedin.svg" width="140px" height="140px" alt="Imagem 1">
-          </a><p>Linkedin</p>
-        </div>
-        <div class="item">
-            <a href="https://github.com/Mateus987" target="_blank"><img src="img/github.svg" width="140px" height="140px" alt="Imagem 2">
-          </a><p>Github</p>
-        </div>
-        <div class="item">
-            <a href="https://www.instagram.com/mah_san.an/" target="_blank"><img src="img/instagram.svg" width="140px" height="140px" alt="Imagem 3">
-          </a><p>Instagram</p>
-        </div>
-        <div class="item">
-            <a href="https://api.whatsapp.com/send?phone=5514997147086&text=Ol%C3%A1%20Mateus,%0Atudo%20bem?" target="_blank"><img src="img/whatsapp.svg" width="140px" height="140px" alt="Imagem 4">
-          </a><p>Whatsapp</p>
-        </div>
-</footer>
+
+      <img src="img/Matias.jpeg" alt="Mateus" class="profile"/>
+
+      <div class="text">
+        <h2>Sobre mim</h2>
+
+        <p>
+          Sou desenvolvedor de software com foco em backend, APIs e integração de sistemas.
+          Atualmente curso Ciência da Computação na UNIVEM.
+        </p>
+
+        <p>
+          Tenho experiência com desenvolvimento web e construção de APIs usando Python, Laravel e JavaScript.
+          Meu foco é criar sistemas escaláveis, bem estruturados e orientados a dados.
+        </p>
+
+        <p>
+          Desde 2020 estudo programação e venho evoluindo principalmente em backend e arquitetura de sistemas.
+          Busco oportunidades em ambientes desafiadores para atuar como engenheiro de software.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="projects">
+    <h2>Projetos</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>API de Integração</h3>
+        <p>API REST para integração entre sistemas com autenticação e logs.</p>
+      </div>
+
+      <div class="card">
+        <h3>Dashboard Web</h3>
+        <p>Interface em React consumindo API com dados em tempo real.</p>
+      </div>
+
+      <div class="card">
+        <h3>Sistema de Automação</h3>
+        <p>Scripts em Python para automação de processos e integração de dados.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <footer class="contact">
+    <h2>Contato</h2>
+
+    <div class="links">
+
+      <a href="https://www.linkedin.com/in/mateus-dos-santos-de-andrade/" target="_blank">
+        LinkedIn
+      </a>
+
+      <a href="https://github.com/Mateus987" target="_blank">
+        GitHub
+      </a>
+
+      <a href="mailto:seuemail@email.com">
+        Email
+      </a>
+
+    </div>
+
+    <p class="copy">© 2026 Mateus dos Santos</p>
+  </footer>
+
+</body>
 </html>
