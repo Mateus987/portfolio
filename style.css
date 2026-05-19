@@ -1,205 +1,134 @@
-body , html{
-    background-color: black;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-h1 {
-    color: whitesmoke;
-    position: relative;
-    left:47px;
-    width: 80%;
-    font-size: 45px;
-    margin: 2px;
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
 }
 
-.first-image{
-    background: url(img/japan.jpg)100% 100%/100% 100% ;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    width: 100%;
-    height: 680px;
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
 }
 
-.first-image h1{
-    width: 35%;
-    margin: 0;
-    position: relative;
-    left: 20%;
-    top: 40%;
+.hero h1 {
+  font-size: 3rem;
 }
 
-.first-image h2{
-    color: whitesmoke;
-    font-size: 38px;
-    width: 40%;
-    margin: 0;
-    position: relative;
-    left: 20%;
-    top: 44%;
+.hero h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #38bdf8;
 }
 
-.about-me{
-    height: 645px;
+.hero p {
+  margin-top: 10px;
+  color: #94a3b8;
 }
 
-
-#user-profile{
-    float: right;
-    width: 60vh;
-    height: 80vh;
-    margin-right: 40px;
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: #0f172a;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
-
-#user-description{
-    position: relative;
-    font-size: 22px;
-    color: whitesmoke;
-    width: 800px;
-    left: 40px;
-}
-
-
-.sentence{
-    background-color: rgb(36, 36, 36);
-    text-align: center;
-    height:30px;
-}
-
-#phrase{
-    position: relative;
-    margin: 0;
-    color: wheat;
-    top: 5px;
-}
-
-.contact-me{
-    z-index: 1;
-    background: url(img/footer-image.png) 100% 100%/100% 100%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    height: 390px;
+/* ABOUT */
+.about {
+  padding: 80px 20px;
 }
 
 .container {
-    display: flex;
-    gap: 90px;
-    justify-content: center;
-  }
-
-.item {
-    text-align: center;
-    margin-top: 75px;
-  }
-
-.contact-me p{
-    margin-top: 10px;
-    color: aliceblue;
-  }
-
-.contact-me img{
-    filter: brightness(0);
-    -webkit-filter: invert(1);
-    filter: invert(1);
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  gap: 40px;
+  align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+.profile {
+  width: 200px;
+  border-radius: 10px;
+}
 
-    .first-image{
-        
-        height: 710px;
-    }
+.text h2 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
 
-    .first-image h1{
-        width: 75%;
-       
-    }
+/* PROJECTS */
+.projects {
+  padding: 80px 20px;
+  text-align: center;
+}
 
-    .first-image h2{
-        width: 70%;
-        font-size: 24px;
-        
-    }
+.projects h2 {
+  margin-bottom: 40px;
+  color: #38bdf8;
+}
 
-    .about-me{
-        height: 420px;
-    }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
 
-    .about-me h1{
-        position: relative;
-        left: 12px;
-        width: 75%;
-    }
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
 
-    #user-profile{
-       position: relative;
-       width: 130px;
-       height: 270px;
-       
-       margin: 0;
-    }
+.card:hover {
+  transform: translateY(-5px);
+}
 
-    #user-description{
-        position: relative;
-        font-size: 10px;
-        left: 3px;
-        width: 35vh;
-        height: 290px;
-        margin: 0;
-    }
+/* FOOTER */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background: #0b1220;
+}
 
-    .first-image{
-        height: 590px;
-    }
+.contact h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
 
-    .sentence{
-        
-        height:60px;
-    }
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
 
-    #phrase{
-        
-        top: 6px;
-    }
+.links a {
+  color: #94a3b8;
+  text-decoration: none;
+}
 
-    .contact-me{
-        height: 80px;
-    }
+.links a:hover {
+  color: #38bdf8;
+}
 
-
-    .contact-me p{
-        visibility: hidden;
-       
-    }
-
-    .container {
-        justify-content: center;
-        gap: 0.1px;
-    }
-
-    .contact-me img{
-        width: 34px;
-        height: 34px;
-    }
-
-    .item {
-    
-        margin-top: 60px;
-      }
-
-  }
-
-  ::-webkit-scrollbar {
-    width: 7px;
-    height: 7px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgba(90, 90, 90);
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0);
-  }
+.copy {
+  font-size: 0.8rem;
+  color: #64748b;
+}
